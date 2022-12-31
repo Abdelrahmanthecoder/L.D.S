@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popup</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster:400|Raleway:300,400,500&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .popup {
+        min-width: 500px;
+        min-height: 18px;
+        background: #98bcee;
+        box-shadow: 0px 4px 4px rgba(98, 79, 79, 0.513);
+        border-radius: 21px;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.rem;
+        font-family: "Lobster";
+        text-align: center;
+
+    }
+
+    .yellow {
+        color: #6339a7;
+    }
+
+    .blue {
+        color: #6339a7;
+    }
+
+    p {
+        font-family: "Raleway", sans-serif;
+        font-size: 0.95rem;
+    }
+
+    .button {
+        background-color: #a3a275;
+        position: relative;
+        height: 2rem;
+        width: 4rem;
+        border-radius: 25px;
+        transition: 1s;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .half {
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        background-color: rgb(255, 213, 0);
+        pointer-events: none;
+        transition: 1s;
+
+    }
+
+    @keyframes transformToBlue {
+        0% {
+            background-color: #a3a275;
+        }
+
+        100% {
+            background-color: #51e754;
+        }
+    }
+
+    @keyframes transformToYellow {
+        0% {
+            background-color: #51e754;
+        }
+
+        100% {
+            background-color: #a3a275;
+        }
+    }
+
+    @keyframes moveCircleRight {
+        0% {
+            left: 0;
+            transform: translateX(0);
+            background-color: #42e448;
+        }
+
+        100% {
+            left: 100%;
+            transform: translateX(-100%);
+            background-color: #44b748;
+        }
+    }
+
+    @keyframes moveCircleLeft {
+        0% {
+            left: 100%;
+            transform: translateX(-100%);
+            background-color: #42e448;
+        }
+
+        100% {
+            left: 0;
+            transform: translateX(0);
+            background-color: rgb(255, 0, 0);
+        }
+    }
+</style>
+
+<body>
+    <div class="popup">
+        <h1> <span class="yellow">L.D.S</span><span class="blue">(Light/dark mode system)</span></h1>
+        <p>
+            Tired of using the same online browsing techniques? 
+            Introducing L.D.S (Light mode dark mode system)... 
+            A Chrome extension that allows you to switch between dark and light mode easily while browsing on the web!
+        </p>
+
+        <div class="button">
+            <div class="half" style="left: 5px;">On</div>
+            <div class="half" style="right: 5px; text-align: right;">Off</div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <script src="./popup.js">
+    </script>
+
+</body>
+
+</html>
