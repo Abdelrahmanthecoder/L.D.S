@@ -9,3 +9,8 @@ Introducing L.D.S a Chrome extension that allows you to switch between dark and 
 ## Issues
 
 You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/L.D.S/issues)!
+
+## Ideas and Questions
+
+You can tell me some ideas for this project on the [ideas](https://github.com/Abdelrahmanthecoder/L.D.S/discussions/categories/ideas) page
+and you can ask me questions on the [general discussion](https://github.com/Abdelrahmanthecoder/L.D.S/discussions/categories/general) page!
