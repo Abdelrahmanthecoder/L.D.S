@@ -1,6 +1,6 @@
 {
     "name": "L.D.S",
-    "version": "1.0.979",
+    "version": "1.0.980",
     "manifest_version": 2,
     "description": "Introducing L.D.S a Chrome extension that allows you to switch between dark and light mode easily while browsing on the web!",
     "background": {
