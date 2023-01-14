@@ -4,3 +4,7 @@ html{
 img, picture, video{
     filter: invert(1) hue-rotate(150deg)
 }
+
+.thick-bold {
+    font-weight: 900;
+}
