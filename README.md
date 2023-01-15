@@ -14,3 +14,8 @@ You can gladly submit any issues or bugs with my project on the [issues page](ht
 
 You can tell me some ideas for this project on the [ideas](https://github.com/Abdelrahmanthecoder/L.D.S/discussions/categories/ideas) page
 and you can ask me questions on the [general discussion](https://github.com/Abdelrahmanthecoder/L.D.S/discussions/categories/general) page!
+
+<div align="center">
+  <a href="https://github.com/Abdelrahmanthecoder" style="text-decoration:none;">
+    <img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-github.png" width="3%" alt="" /></a>
+</div>
