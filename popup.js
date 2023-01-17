@@ -32,17 +32,26 @@ if (document.querySelector(".popup")) {
 
 }
 
-localStorage.setItem("key", "value");
+chrome.storage.local.set({ "key": "value" }, function() {
+    console.log("Value saved: " + value);
+});
 
-var data = localStorage.getItem("key");
-console.log(data);
+chrome.storage.local.get("key", function(items) {
+  console.log("Retrieved value: " + items.key);
+});
 
-localStorage.removeItem("key");
-localStorage.clear();
+chrome.storage.local.remove("key", function() {
+    console.log("Value removed");
+});
 
-try {
-    localStorage.setItem("key", "value");
-  } catch (e) {
-    if (e.code === DOMException.QUOTA_EXCEEDED_ERR) {
+chrome.storage.local.clear(function() {
+    console.log("All values removed");
+});  
+
+chrome.storage.local.set({ "key": "value" }, function() {
+    if (chrome.runtime.lastError) {
+      console.log(chrome.runtime.lastError);
+    } else {
+      console.log("Value saved: " + value);
     }
-}
+});
