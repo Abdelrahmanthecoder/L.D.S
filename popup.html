@@ -158,7 +158,7 @@
                 border-radius: 7px;
                 visibility: hidden;
                 opacity: 0;
-                transition: opacity 0.5s ease;
+                transition: opacity 0.75s ease;
             }
             #tooltipText::before{
                 content: "";
@@ -166,13 +166,13 @@
                 left: 50%;
                 top: 100%;
                 transform: translateX(-50%);
-                border: 15px solid;
+                border: 5px solid;
                 border-color: #000 #0000 #0000 #0000;
             }
             #tooltip:hover #tooltipText{
-                top: -320%;
+                top: -315%;
                 visibility: visible;
-                opacity: 1;
+                opacity: 0.95;
             }
         </style>
         <div id="tooltip">
