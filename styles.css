@@ -8,3 +8,7 @@ img, picture, video{
 .thick-bold {
     font-weight: 900;
 }
+
+body{
+    background: linear-gradient( #29223c , #29223c);
+}
