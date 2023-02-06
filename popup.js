@@ -3,7 +3,7 @@ if (document.querySelector(".popup")) {
     const circle = document.querySelector(".circle")
     let buttonOn = false;
     function invert() {
-        alert("invert")
+        alert("invert functon launched")
         document.body.style.filter = "invert(1) hue-rotate(180deg)";
         let media = document.querySelectorAll("img, picture, video");
         media.forEach((mediaItem) => {
