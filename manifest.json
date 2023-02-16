@@ -18,6 +18,6 @@
         "http://*/*",
         "tabs",
         "activeTab",
-        "storage",
+        "storage"
     ]
 }
