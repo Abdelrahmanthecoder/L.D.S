@@ -4,8 +4,8 @@
     "manifest_version": 3,
     "description": "Introducing L.D.S a Chrome extension that allows you to switch between dark and light mode easily while browsing on the web!",
     "background": {
-        "scripts": [
-            "popup.js"
+        "service_worker": [
+            "background.js"
         ],
         "persistent": true
     },
