@@ -6,8 +6,7 @@
     "background": {
         "service_worker": [
             "background.js"
-        ],
-        "persistent": true
+        ]
     },
     "action": {
         "default_title": "L.D.S",
