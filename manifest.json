@@ -9,7 +9,7 @@
         ],
         "persistent": true
     },
-    "browser_action": {
+    "action": {
         "default_title": "L.D.S",
         "default_popup": "popup.html"
     },
@@ -19,5 +19,6 @@
         "tabs",
         "activeTab",
         "storage"
-    ]
+    ],
+    "host_permissions": [ "<all_urls>" ]
 }
