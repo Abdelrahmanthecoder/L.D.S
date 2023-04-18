@@ -28,3 +28,4 @@ if (document.querySelector(".popup")) {
         }
     });
 }
+
