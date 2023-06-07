@@ -6,6 +6,10 @@
 Introducing L.D.S a Chrome extension that allows you to switch between dark and light mode easily while browsing on the web!
 </p>
 
+<h2 align="center">DEVELOPER NOTE</h2>
+
+The L.D.S project is now discountinued so no updates will be made and this is the official end to the project!
+
 <h2 align="center">Issues</h2>
 
 You can gladly submit any issues or bugs with my project on the [issues page](https://github.com/Abdelrahmanthecoder/L.D.S/issues)!
